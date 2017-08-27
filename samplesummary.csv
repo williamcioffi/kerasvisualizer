@@ -1,0 +1,45 @@
+code,bpnum,museum,museum_code,sia_code,species,year,month,day,sex,age,ocean,length,lat,lon,state,location,cod,platecm,reference
+be01,,SI,,,be,2003,,,M,,NATL,1105,33.9128,-78.2186,NC,"caroliNATL beach, NC",stranding,,
+bp01,1,NCSM,7121,csi_1,bp,1952,,,U,,NATL,1981,36.079914,-75.694677,NC,"kitty hawk, NC",unknown,29,
+bp02,2,NCMM,WAM645,v1,bp,2010,,,F,,NATL,905,34.736879,-76.602604,NC,"north river, NC",livestrand,22,
+bp03,3,NCMM,6-2-92-CCC-W,"v1, csi_1",bp,1992,,,M,,NATL,2150,34.597669,-76.544004,NC,"cape lookout, NC",stranding,34,
+bp04,4,SI,504258,,bp,1975,5,27,M,,NATL,1530,39.392317,-74.380548,NJ,"Brigantine, NJ",stranding,38,
+bp05,5,SI,504733,,bp,1977,11,17,M,,NATL,1433,40.58,-73.5,NY,"long island, NY",stranding,28,
+bp06,6,SI,288229,,bp,1961,2,18,M,,NATL,1160,35.209276,-75.689037,NC,"hatteras village, NC",unknown,24,
+bp07,7,SI,504243,,bp,1975,4,13,M,,NATL,1170,40.6544,-74.15,NJ,"newark bay, NJ",shipstrike-adrift,43,
+bp08,8,SI,86411,,bp,1899,3,,U,,NATL,,41.054823,-71.868885,NY,"montauk, NY",stranding,49,
+bp09,9,SI,504702,,bp,1975,2,10,M,,SA,1740,-60.3,-61.3,ANT,south atlantic,capture,58,
+bp10,10,SI,275773,,bp,1947,9,22,F,,NP,,40.86855,-125.286054,CA,"eureka, CA",capture,65,
+bp11,11,SI,275769,,bp,1947,8,30,F,,NP,,40.86855,-125.286054,CA,"eureka, CA",capture,69,
+bp12,12,SI,504712,,bp,1975,3,13,F,,SP,2200,-55.08,-117.97,ANT,south pacific,capture,74,
+bp13,13,SI,259331,,bp,1935,4,1,U,,,,,,,,,65,
+bp14,14,SI,A16045,csi_1,bp,1875,,,U,,NATL,,41.783978,-70.293043,MA,"cape cod, MA",,35,
+bp15,15,SI,A15296,,bp,1873,,,U,,NATL,,41.783978,-70.293043,MA,"cape cod, MA",,25,
+bp16,16,SI,302977,,bp,,,,U,,,,,,,russia?,capture?,60,
+bp17,17,MCZ,,,bp,1914,,,,,NATL,,50.21667,-66.38333,QC,"septiles, QC",,,
+bp18,18,MCZ,,,bp,1994,,,F,,NATL,975,41.783978,-70.293043,MA,"wellfleet, MA",,,
+bp19,19,MCZ,,,bp,1995,,,,,NATL,,41.260489,-70.817815,MA,"no man’s island, MA",,,
+ega,,VAAQ,,,eg,2004,,,F,,NATL,,36.079914,-75.694677,NC,"kitty hawk, NC",shipstrike,,
+bpxab,,,,,,2016,,,M,A,,,,,,,,,
+bent_bp01,,,,,bp,1975,,,U,A,MS,,,,,"toulon, france",,31.5,bentaleb2011
+bent_bp02,,,,,bp,1980,,,U,A,MS,,,,,"toulon, france",,38,bentaleb2011
+bent_bp03,,,,,bp,1989,,,F,A,MS,,,,,"port la nouvelle, france",,32.2,bentaleb2011
+bent_bp04,,,,,bp,1989,,,F,A,MS,,,,,"port la nouvelle, france",,14.1,bentaleb2011
+bent_bp05,,,,,bp,1990,,,U,J,MS,,,,,"port la nouvelle, france",,11.4,bentaleb2011
+bent_bp06,,,,,bp,1992,,,U,U,MS,,,,,"port la nouvelle, france",,33.8,bentaleb2011
+bent_bp07,,,,,bp,1993,,,U,U,MS,,,,,"port la nouvelle, france",,34,bentaleb2011
+bent_bp08,,,,,bp,1996,,,U,A,MS,,,,,"malaga, spain",,33.9,bentaleb2011
+bent_bp09,,,,,bp,2000,,,M,A,MS,,,,,"toulon, france",,9.7,bentaleb2011
+bent_bp10,,,,,bp,2002,,,U,A,MS,,,,,"malaga, spain",,51.5,bentaleb2011
+1753_5F,,,,,meganyctiphanes_norvegica,2001,3,,,,NATL,,,,,,,,bentaleb2011
+1753_6F,,,,,meganyctiphanes_norvegica,2001,3,,,,NATL,,,,,,,,bentaleb2011
+1755_1M,,,,,meganyctiphanes_norvegica,2001,3,,,,NATL,,,,,,,,bentaleb2011
+1755_2M,,,,,meganyctiphanes_norvegica,2001,3,,,,NATL,,,,,,,,bentaleb2011
+1755_3M,,,,,meganyctiphanes_norvegica,2001,3,,,,NATL,,,,,,,,bentaleb2011
+1755_4M,,,,,meganyctiphanes_norvegica,2001,3,,,,NATL,,,,,,,,bentaleb2011
+1754_SUB6,,,,,meganyctiphanes_norvegica,2001,6,,,,NATL,,,,,,,,bentaleb2011
+1756_SUB1,,,,,meganyctiphanes_norvegica,2001,6,,,,NATL,,,,,,,,bentaleb2011
+1756_SUB2,,,,,meganyctiphanes_norvegica,2001,6,,,,NATL,,,,,,,,bentaleb2011
+1756_SUB3,,,,,meganyctiphanes_norvegica,2001,6,,,,NATL,,,,,,,,bentaleb2011
+1756_SUB4,,,,,meganyctiphanes_norvegica,2001,6,,,,NATL,,,,,,,,bentaleb2011
+1756_SUB5,,,,,meganyctiphanes_norvegica,2001,6,,,,NATL,,,,,,,,bentaleb2011
