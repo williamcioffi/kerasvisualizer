@@ -2,23 +2,23 @@ library(shiny)
 library(ggplot2)
 
 darktheme <- theme(
-	axis.text = element_text(colour = "#9d9a92"),
-	axis.title.x = element_text(colour = "#9d9a92"),
-	axis.title.y = element_text(colour = "#9d9a92"),
-	axis.ticks = element_line(color = "#9d9a92"),
-	panel.background = element_rect(fill = "#222222"),
-	plot.background = element_rect(fill = "#222222", colour = "#222222", linetype = 1),
+	axis.text = element_text(colour = "#000000"),
+	axis.title.x = element_text(colour = "#000000"),
+	axis.title.y = element_text(colour = "#000000"),
+	axis.ticks = element_line(color = "#000000"),
+	panel.background = element_rect(fill = "#ffffff"),
+	plot.background = element_rect(fill = "#ffffff", colour = "#ffffff", linetype = 1),
 	panel.grid.major = element_blank(),
 	panel.grid.minor = element_blank(),
-	legend.background = element_rect(fill = "#222222"),
-	legend.text = element_text(colour = "#9d9a92"), 
+	legend.background = element_rect(fill = "#ffffff"),
+	legend.text = element_text(colour = "#000000"), 
 	legend.key = element_rect(fill = "transparent", colour = "transparent"), 
-	axis.line.x = element_line(color = "#9d9a92"), 
-	axis.line.y = element_line(color = "#9d9a92"),
+	axis.line.x = element_line(color = "#000000"), 
+	axis.line.y = element_line(color = "#000000"),
 	text = element_text(size = 20))
 
 dat <- read.table("masteriso.csv", header = TRUE, sep = ',')
-allowedids <- c("bp01", "bp02", "bp03", "bp04", "bp05", "bp06", "bp07", "bp14", "bp15", "ega")
+allowedids <- c("bp01", "bp02", "bp03", "bp04", "bp05", "bp06", "bp07", "bp14", "bp15", "eg01")
 dese <- which(dat$whaleid %in% allowedids)
 dat <- dat[dese, ]
 dat$whaleid <- as.character(dat$whaleid)
