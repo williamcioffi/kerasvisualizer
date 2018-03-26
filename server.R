@@ -29,11 +29,11 @@ datasetInput <- reactive({
 	ddat <- datasetInput()
 	
 	if(input$timeiso == "c-n-isospace") {
-    		p <- ggplot(ddat, aes(x=d13c, y=d15n, col = whaleid)) + geom_point() + xlab(expression(paste(delta^13, C))) + ylab(expression(paste(delta^15, N))) + labs(col="") + darktheme
+    		p <- ggplot(ddat, aes(x=d13c, y=d15n, col = whaleid)) + geom_point() + xlab(expression(paste(delta^13, "C (\u2030)"))) + ylab(expression(paste(delta^15, "N (\u2030)"))) + labs(col="") + darktheme
     } else if(input$timeiso == "time-d13c"){
-		p <- ggplot(ddat, aes(x = lpos, y = d13c, col = whaleid)) + geom_line() + geom_point() + ylab(expression(paste(delta^13, C))) + xlab("growth axis position (cm)") + labs(col="") + darktheme
+		p <- ggplot(ddat, aes(x = lpos, y = d13c, col = whaleid)) + geom_line() + geom_point() + ylab(expression(paste(delta^13, "C (\u2030)"))) + xlab("growth axis position (cm)") + labs(col="") + darktheme
     } else if(input$timeiso == "time-d15n") {
-		p <- ggplot(ddat, aes(x = lpos, y = d15n, col = whaleid)) + geom_line() + geom_point() + ylab(expression(paste(delta^15, N))) + xlab("growth axis position (cm)") + labs(col="") + darktheme
+		p <- ggplot(ddat, aes(x = lpos, y = d15n, col = whaleid)) + geom_line() + geom_point() + ylab(expression(paste(delta^15, "N (\u2030)"))) + xlab("growth axis position (cm)") + labs(col="") + darktheme
     }
     print(p)
 

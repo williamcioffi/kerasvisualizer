@@ -1,9 +1,6 @@
 library(shiny)
 library(ggplot2)
 
-xchoices <- c("growth position", "d13c", "d15n")
-ychoices <- c("growth position", "d13c", "d15n")
-
 fluidPage(
 	tags$head(
 		tags$link(rel = "stylesheet", type = "text/css", href = "style.css")
