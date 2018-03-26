@@ -15,33 +15,15 @@ darktheme <- theme(
 	legend.key = element_rect(fill = "transparent", colour = "transparent"), 
 	axis.line.x = element_line(color = "#000000"), 
 	axis.line.y = element_line(color = "#000000"),
-	text = element_text(size = 20))
-
-dat <- read.table("masteriso.csv", header = TRUE, sep = ',')
-allowedids <- c("bp01", "bp02", "bp03", "bp04", "bp05", "bp06", "bp07", "bp14", "bp15", "eg01")
-dese <- which(dat$whaleid %in% allowedids)
-dat <- dat[dese, ]
-dat$whaleid <- as.character(dat$whaleid)
-u_id <- sort(unique(dat$whaleid))
-
-master <- read.table("mastersamplesheet.csv", header = TRUE, sep = ',')
-mer <- merge(dat, master, by.x = "sampleid", by.y = "full_label")
-
-oo <- order(mer$lpos)
-mer <- mer[oo, ]
-oo <- order(mer$whaleid)
-mer <- mer[oo, ]
+	text = element_text(size = 20)
+)
 
 datdl = data.frame(id = NA, lpos = NA, d13c = NA, d15n = NA)
 function(input, output) {
 datasetInput <- reactive({
     animals <- which(dat$whaleid %in% input$animal_id)
-	dat2 <- dat[animals, ]
-	animals <- which(mer$whaleid %in% input$animal_id)
-	mer2 <- mer[animals, ]
-	
-	data.frame(whaleid = mer2$whaleid, lpos = mer2$lpos, d13c = mer2$d13c, d15n = mer2$d15n)
-  })
+	data.frame(whaleid = dat$whaleid[animals], lpos = dat$lpos[animals], d13c = dat$d13c[animals], d15n = dat$d15n[animals])
+})
   
   output$plot <- renderPlot({
 	ddat <- datasetInput()
