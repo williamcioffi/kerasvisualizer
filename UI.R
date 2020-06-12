@@ -13,9 +13,9 @@ fluidPage(
 		column(3,
 			div(style = "color: #000000; background: #ffffff", selectInput('timeiso', 'plot_type', c("c-n-isospace", "time-d13c", "time-d15n"), width = "100%"))
 		),
-		width = "100%"
+		width = "50%"
 			
 	),
 	
-	plotOutput("plot")
+	plotOutput("plot", width = "100%")
 )

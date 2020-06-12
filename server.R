@@ -37,7 +37,7 @@ datasetInput <- reactive({
     }
     print(p)
 
-  }, height = 400, width = 600)
+  })
 
 output$downloadData <- downloadHandler(
   filename = function() {
