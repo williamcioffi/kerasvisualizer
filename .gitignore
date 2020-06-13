@@ -2,3 +2,6 @@
 .Rapp.history
 .DS_Store
 shinycommands.R
+
+# secrets
+rsconnect
