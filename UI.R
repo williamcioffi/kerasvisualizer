@@ -17,5 +17,5 @@ fluidPage(
 			
 	),
 	
-	plotOutput("plot", width = "100%")
+	plotOutput("plot", width = "100%", height = "350px")
 )
