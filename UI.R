@@ -13,7 +13,8 @@ fluidPage(
 		column(3,
 			div(style = "color: #000000; background: #ffffff", selectInput('timeiso', 'plot_type', c("c-n-isospace", "time-d13c", "time-d15n"), width = "100%"))
 		),
-		width = "50%"
+		width = "50%",
+    tags$head(tags$style(type="text/css", ".container-fluid { max-width: 800px; }"))
 			
 	),
 	
